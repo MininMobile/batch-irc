@@ -11,7 +11,6 @@ echo %name% has joined the chat! >> log.bat
 
 :message
 cls
-call log.bat
 set /p msg=%name%: 
 
 echo set recieved=%msg% > update.bat
