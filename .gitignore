@@ -1,2 +1,6 @@
 # VSCode Settings
 .vscode
+
+# Ignore Updates
+./Sever/log.bat
+./Server/update.bat

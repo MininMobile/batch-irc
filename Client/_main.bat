@@ -1,6 +1,6 @@
 @echo off
 call config.bat
-cd %server%
+cd ../Server
 
 :main
 cls
