@@ -7,8 +7,9 @@ goto wait
 
 :update
 call update.bat
-call:checkName "%from%"
-if %mod% == 1 goto modUpdate
+call config.bat checkName "%from%"
+echo fries
+if %mod% == 1 echo fries
 goto message
 
 :modUpdate

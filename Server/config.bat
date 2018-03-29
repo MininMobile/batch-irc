@@ -1,8 +1,8 @@
 goto exit
 
 :checkName 
-set /a mod=0
-if %~1 == Minin (set /a mod=1)
+set mod=0
+if %~1 == Minin (set mod=1)
 goto exit
 
 :exit
