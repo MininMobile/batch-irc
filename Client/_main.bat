@@ -1,17 +1,20 @@
 @echo off
 call config.bat
-cd ../Server
+cd ..
+cd Server
 
 :main
 cls
 echo Enter Username;
 set /p name=
 
-echo %name% has joined the chat! >> log.bat
+echo set from=%name% > update.bat
+echo set recieved=Joined the chat! >> update.bat
 
 :message
 cls
 set /p msg=%name%: 
 
-echo set recieved=%msg% > update.bat
+echo set from=%name% > update.bat
+echo set recieved=%msg% >> update.bat
 goto message

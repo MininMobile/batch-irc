@@ -2,5 +2,5 @@
 .vscode
 
 # Ignore Updates
-./Sever/log.bat
-./Server/update.bat
+log.bat
+update.bat
