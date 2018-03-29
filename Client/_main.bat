@@ -15,8 +15,4 @@ call log.bat
 set /p msg=%name%: 
 
 echo set recieved=%msg% > update.bat
-
-:wait
-if NOT exist update.bat goto wait
-
 goto message
