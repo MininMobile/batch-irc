@@ -1,4 +1,5 @@
 @echo off
+start _diplay.bat
 call config.bat
 cd ..
 cd Server
